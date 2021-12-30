@@ -11,7 +11,7 @@
      dest: /var/www/html/index.html
   - name: restart service
     service: 
-     name: htttpd
+     name: httpd
      state: restarted
      enabled: true
   - name: create user
